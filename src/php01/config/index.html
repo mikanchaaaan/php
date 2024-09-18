@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COACHTECH</title>
+</head>
+<body>
+    <form action="result.php" method="post">
+        <lavel>お名前：<input type="text" name="name"></lavel>
+        <br>
+        <lavel>ご希望商品：
+            <input type="radio" name="radio" value="Aセット">Aセット
+            <input type="radio" name="radio" value="Bセット">Bセット
+            <input type="radio" name="radio" value="Cセット">Cセット
+        </lavel>
+        <br>
+        <lavel>注文数：<input type="number" name="number" min="-1"></lavel>
+        <br>
+        <input type="submit" method="post" value="送信">
+    </form>
+</body>
+</html>
